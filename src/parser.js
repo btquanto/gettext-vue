@@ -22,6 +22,9 @@ function Parser(customKeywordSpec) {
     $t: {
       msgid: 0,
     },
+    tt: {
+      msgid: 0,
+    },
     $gettext: {
       msgid: 0,
     },
@@ -32,6 +35,10 @@ function Parser(customKeywordSpec) {
       msgid: 1,
     },
     $ngettext: {
+      msgid: 0,
+      msgid_plural: 1,
+    },
+    ntt: {
       msgid: 0,
       msgid_plural: 1,
     },
