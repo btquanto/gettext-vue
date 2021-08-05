@@ -25,6 +25,9 @@ function Parser(customKeywordSpec) {
     tt: {
       msgid: 0,
     },
+    gettext: {
+      msgid: 0,
+    },
     $gettext: {
       msgid: 0,
     },
